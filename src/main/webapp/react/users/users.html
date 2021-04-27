@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>React Hello World</title>
+
+</head>
+<body>
+<div id="root"></div>
+
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-router-dom@5.2.0/umd/react-router-dom.min.js"></script>
+
+<script src="user.js" type="text/jsx" data-type="module" data-plugins="transform-modules-umd"></script>
+<script src="users.js" type="text/jsx" data-type="module" data-plugins="transform-modules-umd"></script>
+<script src="app.js" type="text/jsx" data-type="module" data-plugins="transform-modules-umd"></script>
+<script type="text/jsx" data-type="module" data-plugins="transform-modules-umd">
+    import App from "./app";
+    ReactDOM.render(
+        React.createElement(App),
+        document.getElementById('root')
+    );
+</script>
+</body>
+</html>
