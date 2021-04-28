@@ -6,6 +6,12 @@ Walter Galdamez – Section 03
 
 # Database UML
 [database_uml](db_design_final_project_UML.pdf)
+
+# Instructions to run Application
+1.) Clone this repo to your machine. All libraries and depencies are already taken cared of.
+2.) Open up the project on IntellaJ IDE 
+3.) Run the DemoApplication to establish a connection witht the local database
+4.) Open index.html file located under the players folder in a web browser. The path to this file is src/main/webapp/react/players/index.html
  
 
 ## Problem statement: 
