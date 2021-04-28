@@ -12,6 +12,10 @@ public class Endorsement {
     private String companyName;
     private Integer contractDuration;
     private Integer playerId;
+    
+    @ManyToOne
+    @JsonIgnore
+    private Player player;
 
     public Integer getEndorsementId() {
         return endorsementId;
