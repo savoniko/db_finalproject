@@ -4,7 +4,7 @@ Savvas Nikopoulos – Section 03
 
 Walter Galdamez – Section 03 
 
-#Database UML
+# Database UML
 [database_uml](db_design_final_project_UML.pdf)
  
 
