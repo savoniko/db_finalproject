@@ -85,4 +85,4 @@ Endorsement List: displays a list of all the endorsements of a player.
 Endorsement Editor: displays the endorsement editing form where new endorsements can be added, or current endorsements can be edited in by the user. 
 
 #Database UML
-[database_uml](bd_design_final_project_UML.pdf)
+[database_uml](db_design_final_project_UML.pdf)
