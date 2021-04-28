@@ -47,9 +47,14 @@ const PlayerList = () => {
     const history = useHistory()
 
     return(
+        <div >
+        <div className="header">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.TLaX0ASEKjIKz9nXdsWPIQHaHa%26pid%3DApi&f=1"
+                 width="15%" height="15%"/>
+        </div>
         <div>
             <h1>Player List</h1>
-            <button className="btn btn-primary" onClick={() => history.push("/players/new")}>
+            <button className="btn btn-primary" onClick={() => history.push("/player/editor/new")}>
                 Add Player
             </button>
                 {
@@ -82,7 +87,9 @@ const PlayerList = () => {
                         </li>)*/
                 }
 
+            </div>
         </div>
+
     )
 }
 

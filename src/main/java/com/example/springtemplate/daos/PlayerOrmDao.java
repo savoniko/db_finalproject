@@ -42,6 +42,7 @@ public class PlayerOrmDao {
         player.setPlayerDob(playerUpdates.getPlayerDob());
         player.setPlayerTeamId(playerUpdates.getPlayerTeamId());
         player.setPlayerPositionId(playerUpdates.getPlayerPositionId());
+        player.setPlayerProfilePicture(playerUpdates.getPlayerProfilePicture());
 
         return playerRepository.save(player);
     }

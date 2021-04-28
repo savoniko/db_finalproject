@@ -18,6 +18,7 @@ public class Player {
     private Date dob;
     private Integer teamId;
     private Integer positionId;
+    private String profilePicture;
 
     //private String profilePicture;
     //private String handle;
@@ -53,15 +54,14 @@ public class Player {
     public Integer getPlayerPositionId() { return positionId; }
     public void setPlayerPositionId(Integer positionId) { this.positionId = positionId; }
 
-    // Maybe not needed
-    //public String getProfilePicture() { return profilePicture; }
-    //public void setProfilePicture(String profilePicture) { this.profilePicture = profilePicture; }
+    public String getPlayerProfilePicture() { return profilePicture; }
+    public void setPlayerProfilePicture(String profilePicture) { this.profilePicture = profilePicture; }
 
     //public String getHandle() { return handle; }
     //public void setHandle(String handle) { this.handle = handle; }
 
     public Player(String username, String password, Integer jerseyNumber, String first_name, String last_name, String email,
-                  Date dob, Integer teamId, Integer positionId) {
+                  Date dob, Integer teamId, Integer positionId, String profilePicture) {
         this.jerseyNumber = jerseyNumber;
         this.username = username;
         this.password = password;
@@ -71,6 +71,7 @@ public class Player {
         this.dob = dob;
         this.teamId = teamId;
         this.positionId = positionId;
+        this.profilePicture = profilePicture;
     }
 
     public Player() {}
